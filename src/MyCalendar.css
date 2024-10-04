@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+/* ปรับขนาดวันที่ในหัวปฏิทิน */
+.rbc-header {
+    font-size: 1rem; /* ปรับขนาดตัวอักษรในหัว */
+}
+
+/* ปรับขนาดวันที่ในแต่ละวัน */
+.rbc-day-slot .rbc-day-slot-content {
+    font-size: 3rem; /* ปรับขนาดวันที่ในวัน */
+}
+
+/* ปรับขนาดวันที่ในการแสดงอีเวนต์ */
+.rbc-event {
+    font-size: 1rem; /* ขนาดฟอนต์ของอีเวนต์ */
+}
+
+/* MyCalendar.css */
+
+/* เปลี่ยนสีพื้นหลังของปฏิทิน */
+.rbc-calendar {
+    background-color: #f0f0f0; /* เปลี่ยนสีพื้นหลัง */
+}
+
+/* เปลี่ยนสีพื้นหลังของวันที่ในปฏิทิน */
+.rbc-day-slot {
+    background-color: #ffffff; /* สีพื้นหลังของวันที่ */
+}
+
+/* เปลี่ยนสีของวันที่ */
+.rbc-day-slot .rbc-day-slot-content {
+    color: #333; /* เปลี่ยนสีข้อความวันที่ */
+}
+
+/* เปลี่ยนสีของเหตุการณ์ในปฏิทิน */
+.rbc-event {
+    background-color: #ffffff; /* สีพื้นหลังของเหตุการณ์ */
+    color: rgb(0, 0, 0); /* สีข้อความภายในเหตุการณ์ */
+}
+
+/* เปลี่ยนสีของเหตุการณ์เมื่อมีการ hover */
+.rbc-event:hover {
+    background-color: #f7c4ad; /* เปลี่ยนสีเมื่อ hover */
+}
+
